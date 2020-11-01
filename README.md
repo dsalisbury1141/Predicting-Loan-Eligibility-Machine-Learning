@@ -1,5 +1,4 @@
 # Predicting-Loan-Eligibility-Project
-Includes Machine Learning
 
 Dataset possibilities
 
