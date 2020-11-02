@@ -7,6 +7,8 @@ https://www.kaggle.com/ninzaami/loan-predication
 <p>    </p>
 https://www.kaggle.com/altruistdelhite04/loan-prediction-problem-dataset
 
+
+
 Auto loan
 https://www.kaggle.com/mamtadhaker/lt-vehicle-loan-default-prediction
 
