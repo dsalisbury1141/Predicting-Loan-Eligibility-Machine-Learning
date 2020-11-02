@@ -1,6 +1,4 @@
 # Predicting-Loan-Eligibility-Project
-
-# Predicting-Loan-Eligibility-Project
 <<<<<<< HEAD
 Includes Machine Learning
 
