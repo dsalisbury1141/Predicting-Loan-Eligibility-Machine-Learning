@@ -4,7 +4,7 @@ Dataset possibilities
 
 General loan predictions
 https://www.kaggle.com/ninzaami/loan-predication
-<b>    </b>
+<p>    </p>
 https://www.kaggle.com/altruistdelhite04/loan-prediction-problem-dataset
 
 Auto loan
