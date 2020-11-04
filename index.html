@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Predicting Loan Eligibility Using Maching Learning</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: rgb(224, 190, 91)">
+        <a class="navbar-brand" href="#">Predicting Loan Eligibility Using Maching Learning</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+            aria-controls="navbar-SupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Placeholder Link</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron h-100" style="background-image: url(https://cdn.pixabay.com/photo/2017/08/30/07/56/money-2696228_1280.jpg); background-size: cover">
+            <h1 class="display-4">Predicting Loan Eligibility Using Maching Learning
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clipboard-check" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                    <path fill-rule="evenodd" d="M9.5 1h-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3zm4.354 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                  </svg>
+            </h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra 
+                suspendisse potenti nullam ac tortor vitae purus. Elementum nibh tellus molestie nunc. Elit pellentesque habitant morbi tristique 
+                senectus et netus. Fringilla urna porttitor rhoncus dolor purus non enim praesent.
+            </p>
+            <a target="_blank" class="btn btn-outline-secondary btn-sm" href="#" role="button">Placeholder</a>
+        </div>
+
+        <form>
+            <div class="form-group row">
+              <label for="inputGender" class="col-sm-2 col-form-label">Gender</label>
+              <div class="col-sm-10">
+                <input type="gender" class="form-control" id="inputGender">
+              </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputDependents" class="col-sm-2 col-form-label">Do you have any dependents? (Y/N)</label>
+                <div class="col-sm-10">
+                  <input type="dependents" class="form-control" id="inputDependents">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputMarried" class="col-sm-2 col-form-label">Are you married?</label>
+                <div class="col-sm-10">
+                  <input type="married" class="form-control" id="inputMarried">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputCredit" class="col-sm-2 col-form-label">Credit Score</label>
+                <div class="col-sm-10">
+                  <input type="creditScore" class="form-control" id="inputCredit">
+                </div>
+              </div>
+          </form>
+
+    </div
+
+    <!--Boostrap JS-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <!-- d3 JS -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <!-- Our JS -->
+    <script type="text/javascript" src="static/app.js"></script>
+
+  </body>
+</html>
