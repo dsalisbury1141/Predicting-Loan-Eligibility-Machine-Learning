@@ -1,0 +1,31 @@
+.navbar {
+    padding: 5px;
+    margin: 0;
+    background-color: rgb(224, 190, 91)
+  }
+
+.jumbotron {
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/07/56/money-2696228_1280.jpg);
+    background-size: cover
+}
+
+.display-4 {
+    color:rgb(106, 76, 44)
+}
+
+.lead {
+    color:rgb(240, 228, 213);
+    background-color:rgb(113, 121, 41);
+}
+
+.img-fluid {
+    width: 300px;
+    height: 210px;
+    overflow: hidden;
+    margin-left: 70px;
+}
+
+figure figcaption {
+    text-align: center;
+    margin-left: 70px
+}
