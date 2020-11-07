@@ -15,9 +15,15 @@ function runModel1() {
     // Prevent the page from refreshing
     //d3.event.preventDefault();
     d3.select("#inputGender").property("value", "Female");
-    d3.select("#inputDependents").property("value", "Yes");
+    d3.select("#inputDependents").property("value", "1");
     d3.select("#inputMarried").property("value", "Yes");
     d3.select("#inputCredit").property("value", "650");
+    d3.select("#inputEducation").property("value", "Yes");
+    d3.select("#inputSelfEmploy").property("value", "No");
+    d3.select("#inputIncome").property("value", "1750");
+    d3.select("#inputCoIncome").property("value", "1300");
+    d3.select("#inputLoanAmt").property("value", "300,000");
+    d3.select("#inputLoanTerm").property("value", "300");
     //console.log("click works")
 
     let selection = d3.select("#model-loan-status");
@@ -33,9 +39,15 @@ function runModel2() {
     // Prevent the page from refreshing
     //d3.event.preventDefault();
     d3.select("#inputGender").property("value", "Male");
-    d3.select("#inputDependents").property("value", "Yes");
+    d3.select("#inputDependents").property("value", "3+");
     d3.select("#inputMarried").property("value", "No");
     d3.select("#inputCredit").property("value", "690");
+    d3.select("#inputEducation").property("value", "Yes");
+    d3.select("#inputSelfEmploy").property("value", "Yes");
+    d3.select("#inputIncome").property("value", "1550");
+    d3.select("#inputCoIncome").property("value", "0");
+    d3.select("#inputLoanAmt").property("value", "100,000");
+    d3.select("#inputLoanTerm").property("value", "360");
     //console.log("click works")
 
     let selection = d3.select("#model-loan-status");
@@ -50,9 +62,15 @@ function runModel3() {
     // Prevent the page from refreshing
     //d3.event.preventDefault();
     d3.select("#inputGender").property("value", "Female");
-    d3.select("#inputDependents").property("value", "No");
+    d3.select("#inputDependents").property("value", "None");
     d3.select("#inputMarried").property("value", "Yes");
     d3.select("#inputCredit").property("value", "560");
+    d3.select("#inputEducation").property("value", "No");
+    d3.select("#inputSelfEmploy").property("value", "No");
+    d3.select("#inputIncome").property("value", "1750");
+    d3.select("#inputCoIncome").property("value", "2600");
+    d3.select("#inputLoanAmt").property("value", "150,000");
+    d3.select("#inputLoanTerm").property("value", "360");
     //console.log("click works")
 
     let selection = d3.select("#model-loan-status");
