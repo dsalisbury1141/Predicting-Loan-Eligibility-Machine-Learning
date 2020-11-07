@@ -29,3 +29,17 @@ figure figcaption {
     text-align: center;
     margin-left: 70px
 }
+
+#approved{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 400px;
+}
+
+#rejected{
+    width: 325px;
+    height: 210px;
+    overflow: hidden;
+    margin-left: 400px;
+}
