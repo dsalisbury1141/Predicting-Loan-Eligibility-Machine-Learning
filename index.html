@@ -44,12 +44,10 @@
         <div class="row">
           <div clss="col-md-4">
             <figure>
-              <a href="#">
-                  <img class="rounded img-fluid" id="model-example-1" src="https://cdn.pixabay.com/photo/2018/03/25/13/36/poly-3259432_1280.jpg" 
-                  alt="Model Example 1"/>
-              </a>
+              <img class="rounded img-fluid" id="model-example-1" src="https://cdn.pixabay.com/photo/2018/03/25/13/36/poly-3259432_1280.jpg" 
+                alt="Model Example 1"/>
               <figcaption><em>Click me to find out if I am eligible!</em></figcaption>
-          </figure>
+            </figure>
           </div>
           <div clss="col-md-4">
             <figure>
@@ -70,19 +68,28 @@
             <div class="form-group row">
               <label for="inputGender" class="col-sm-2 col-form-label">Gender</label>
               <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputGender" placeholder="Female">
+                <select class="form-control" id="inputGender">
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
               </div>
             </div>
             <div class="form-group row">
-                <label for="inputDependents" class="col-sm-2 col-form-label">Do you have any dependents? (Y/N)</label>
+                <label for="inputDependents" class="col-sm-2 col-form-label">Do you have any dependents?</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="inputDependents" placeholder="Yes">
+                  <select class="form-control" id="inputDependents">
+                    <option>No</option>
+                    <option>Yes</option>
+                  </select>
                 </div>
             </div>
             <div class="form-group row">
                 <label for="inputMarried" class="col-sm-2 col-form-label">Are you married?</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputMarried" placeholder="No">
+                    <select class="form-control" id="inputMarried">
+                      <option>No</option>
+                      <option>Yes</option>
+                    </select>
                 </div>
             </div>
             <div class="form-group row">
