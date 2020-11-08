@@ -1,5 +1,7 @@
 # Predicting-Loan-Eligibility-Project
 
+Github publish - Work in progress https://dsalisbury1141.github.io/Predicting-Loan-Eligibility-Project
+
 Instructions
 https://github.com/UCF-Coding-Boot-Camp/UCF-LKM-DATA-PT-05-2020-U-C/blob/master/Projects/Final-Project/ProjectGuidelines/23.1%20Final%20Project.pdf
 
