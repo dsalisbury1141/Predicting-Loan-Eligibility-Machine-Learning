@@ -1,0 +1,60 @@
+.navbar {
+    padding: 5px;
+    margin: 0;
+    background-color:rgb(68, 91, 110);;
+  }
+
+.jumbotron {
+    background-image: url(https://image.freepik.com/free-photo/buying-new-house-concept_35034-364.jpg);
+    background-size: cover;
+}
+
+.display-4 {
+    color:rgb(77, 105, 112)
+}
+
+.lead {
+    color:rgb(77, 105, 112)
+}
+
+.img-fluid {
+    width: 300px;
+    height: 210px;
+    overflow: hidden;
+    margin-left: 70px;
+}
+
+figure figcaption {
+    text-align: center;
+    margin-left: 70px
+}
+
+#approved{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 400px;
+}
+
+#rejected{
+    width: 325px;
+    height: 210px;
+    overflow: hidden;
+    margin-left: 400px;
+}
+p.normal {
+    font-weight: normal;
+  }
+  
+  p.thick {
+    font-weight: bold;
+  }
+  
+  p.thicker {
+    font-weight: 900;
+  }
+  ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
