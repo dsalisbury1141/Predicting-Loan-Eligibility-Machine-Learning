@@ -34,6 +34,7 @@ figure figcaption {
     height: 300px;
     overflow: hidden;
     margin-left: 400px;
+    margin-bottom: 2%;
 }
 
 #rejected{
@@ -41,6 +42,11 @@ figure figcaption {
     height: 210px;
     overflow: hidden;
     margin-left: 400px;
+    margin-bottom: 2%;
+}
+
+#modelsFooter{
+  margin-left:10%
 }
 p.normal {
     font-weight: normal;
