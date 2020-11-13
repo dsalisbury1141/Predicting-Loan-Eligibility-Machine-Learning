@@ -37,114 +37,129 @@
       <a target="_blank" class="btn btn-outline-secondary btn-sm" href="index.html" role="button">Back to Home</a>
     </div>
 
-    <div class="container">
-        
+    <div class="container-fluid">
       <div class="row">
-        <div clss="col-md-4">
+        <div class="col-md-4 order-md-1 mb-24">
           <figure>
-            <img class="rounded img-fluid" id="model-example-1" src="https://cdn.pixabay.com/photo/2018/03/25/13/36/poly-3259432_1280.jpg" 
+            <img class="rounded img-fluid" id="model-example-1" src="https://cdn.pixabay.com/photo/2019/01/17/03/13/father-son-3937095_1280.jpg" 
               alt="Model Example 1"/>
             <figcaption><em>Click me to find out if I am eligible!</em></figcaption>
           </figure>
-        </div>
-        <div class="col-md-4">
-          <figure>
-            <img class="rounded img-fluid" id="model-example-2" src="https://cdn.pixabay.com/photo/2018/03/10/10/49/triangle-3213782_1280.jpg" 
-              alt="Model Example 1"/>
-            <figcaption><em>Click me to find out if I am eligible!</em></figcaption>
-          </figure>
-        </div>
-        <div class="col-md-4">
-          <figure>
-            <img class="rounded img-fluid" id="model-example-3" src="https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_1280.png" 
-              alt="Model Example 1"/>
-            <figcaption><em>Click me to find out if I am eligible!</em></figcaption>
-          </figure>
-        </div>
-      </div>
-        <form>
-            <div class="form-group row">
-              <label for="inputGender" class="col-sm-2 col-form-label">Gender</label>
+        </div> <!-- image div-->
+
+        <form class="col-md-8 order-md-2">
+          <div class="form-group row">
+            <label for="inputGender" class="col-sm-2 col-form-label">Gender</label>
+            <div class="col-sm-10">
+              <select class="form-control" id="inputGender">
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputMarried" class="col-sm-2 col-form-label">Are you married?</label>
+            <div class="col-sm-10">
+                <select class="form-control" id="inputMarried">
+                  <option>No</option>
+                  <option>Yes</option>
+                </select>
+            </div>
+          </div>
+          <div class="form-group row">
+              <label for="inputDependents" class="col-sm-2 col-form-label">How many dependents do you have?</label>
               <div class="col-sm-10">
-                <select class="form-control" id="inputGender">
-                  <option>Male</option>
-                  <option>Female</option>
+                <select class="form-control" id="inputDependents">
+                  <option>None</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3+</option>
                 </select>
               </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEducation" class="col-sm-2 col-form-label">Did you graduate?</label>
+            <div class="col-sm-10">
+                <select class="form-control" id="inputEducation">
+                  <option>No</option>
+                  <option>Yes</option>
+                </select>
             </div>
-            <div class="form-group row">
-              <label for="inputMarried" class="col-sm-2 col-form-label">Are you married?</label>
-              <div class="col-sm-10">
-                  <select class="form-control" id="inputMarried">
-                    <option>No</option>
-                    <option>Yes</option>
-                  </select>
-              </div>
-            </div>
-            <div class="form-group row">
-                <label for="inputDependents" class="col-sm-2 col-form-label">How many dependents do you have?</label>
-                <div class="col-sm-10">
-                  <select class="form-control" id="inputDependents">
-                    <option>None</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3+</option>
-                  </select>
-                </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputEducation" class="col-sm-2 col-form-label">Did you graduate?</label>
-              <div class="col-sm-10">
-                  <select class="form-control" id="inputEducation">
-                    <option>No</option>
-                    <option>Yes</option>
-                  </select>
-              </div>
-            </div>
-            <div class="form-group row">
-                <label for="inputSelfEmploy" class="col-sm-2 col-form-label">Are you self-employed?</label>
-                <div class="col-sm-10">
-                  <select class="form-control" id="inputSelfEmploy">
-                    <option>No</option>
-                    <option>Yes</option>
-                  </select>
-                </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputIncome" class="col-sm-2 col-form-label">What is your gross monthly income?</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputIncome" placeholder="1500">
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputCoIncome" class="col-sm-2 col-form-label">If you have a cosigner, what is their income?</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputCoIncome" placeholder="1500">
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputLoanAmt" class="col-sm-2 col-form-label">Loan Amount Applied For</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputLoanAmt" placeholder="100">
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputLoanTerm" class="col-sm-2 col-form-label">Length of Loan (Months)</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputCoIncome" placeholder="300">
-              </div>
-            </div>
-            <div class="form-group row">
-                <label for="inputCredit" class="col-sm-2 col-form-label">Credit Score</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="inputCredit" placeholder="600">
-                </div>
-            </div>
+          </div>
         </form>
+      </div><!-- first row div-->
 
-      <div id="model-loan-status"</div>
-        
-    </div>
+      <div class="row">
+        <div class="col-md-4 order-md-1 mb-4">
+          <figure>
+            <img class="rounded img-fluid" id="model-example-2" src="https://cdn.pixabay.com/photo/2019/09/02/15/58/family-4447538_1280.jpg" 
+              alt="Model Example 2"/>
+            <figcaption><em>Click me to find out if I am eligible!</em></figcaption>
+          </figure>
+        </div>
+        <form class="col-md-8 order-md-2">
+          <div class="form-group row">
+            <label for="inputSelfEmploy" class="col-sm-2 col-form-label">Are you self-employed?</label>
+            <div class="col-sm-10">
+              <select class="form-control" id="inputSelfEmploy">
+                <option>No</option>
+                <option>Yes</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputIncome" class="col-sm-2 col-form-label">What is your gross monthly income?</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputIncome" placeholder="1500">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputCoIncome" class="col-sm-2 col-form-label">What is your co-borrower's income?</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputCoIncome" placeholder="1500">
+            </div>
+          </div>
+        </form>
+      </div> <!-- second row div-->
+
+      <div class="row">
+        <div class="col-md-4 order-md-1 mb-4">
+          <figure>
+            <img class="rounded img-fluid" id="model-example-3" src="https://cdn.pixabay.com/photo/2016/11/29/13/14/attractive-1869761_1280.jpg" 
+              alt="Model Example 3"/>
+            <figcaption><em>Click me to find out if I am eligible!</em></figcaption>
+          </figure>
+        </div>
+        <form class="col-md-8 order-md-2">
+          <div class="form-group row">
+            <label for="inputLoanAmt" class="col-sm-2 col-form-label">Loan Amount Applied For</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputLoanAmt" placeholder="100">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputLoanTerm" class="col-sm-2 col-form-label">Length of Loan (Months)</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputLoanTerm" placeholder="300">
+            </div>
+          </div>
+          <div class="form-group row">
+              <label for="inputCredit" class="col-sm-2 col-form-label">Credit Score</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputCredit" placeholder="600">
+              </div>
+          </div>
+        </form>
+      </div> <!-- last row div-->
+
+      <div id="model-loan-status"></div>
+
+    </div> <!-- container div-->
+    
+    <div class="footer" id="modelsFooter" >
+      <a></a>
+      <p><strong>Project Team: </strong>Alissa Vokes, Christina Suckow, Dawn Salisbury 2020, UCF-Coding-Boot-Camp 2020</P>
+    </div> <!-- footer div-->
 
     <!-- Boostrap JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -154,8 +169,6 @@
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <!-- Our JS -->
     <script type="text/javascript" src="static/app.js"></script>
-    <div class="footer" >
-      <a></a>
-      <p><strong>Project Team: </strong>Alissa Vokes, Christina Suckow, Dawn Salisbury 2020, UCF-Coding-Boot-Camp 2020</P>
+
   </body>
 </html>
