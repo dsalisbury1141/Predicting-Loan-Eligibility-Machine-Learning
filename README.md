@@ -1,6 +1,7 @@
 # Predicting-Loan-Eligibility-Project
 
 Github publish - Work in progress https://dsalisbury1141.github.io/Predicting-Loan-Eligibility-Project
+Deployed externally https://myprojectrepo.com/MachineLearningProject/index.html
 
 Presentation on Google Drive https://docs.google.com/presentation/d/14ixJCypw-fH7q4HrDWFOxY0PVrXbD5uRqIMcI2Y0Po8/edit#slide=id.p5
 
