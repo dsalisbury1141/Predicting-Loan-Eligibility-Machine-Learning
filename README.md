@@ -1,6 +1,6 @@
 # Predicting-Loan-Eligibility-Project
 
-Github publish - Work in progress https://dsalisbury1141.github.io/Predicting-Loan-Eligibility-Project
+Github publish - Work in progress https://dsalisbury1141.github.io/Predicting-Loan-Eligibility-Machine-Learning
 
 <a>Deployed externally https://myprojectrepo.com/MachineLearningProject/index.html</a>
 
