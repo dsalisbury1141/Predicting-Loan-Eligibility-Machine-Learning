@@ -12,11 +12,17 @@ This was a team effort where we used machine learning to showcase how it might b
 In this case we created a simulation company HappyHomeMortgage Company where we created a simulation loan preapproval. then created a website to showcase the work
 
 In a nutshell: 
-<li>Find the best data for our model
-<li>Review and clean data using Jupyter Lab
-<li>Remove all NAN and null values
-
-
+<li>Find the best data for our model</li>
+<li>Review and clean data using Jupyter Lab</li>
+<li>Remove all NAN and null values</li>
+<li>Select the features</li>
+<li>Plot the data, to visualize the outcome</li>
+<li>Choose the right machine learning algorithm</li>
+<li>Train test and split your data</li>
+<li>Preprocessing</li>
+<li>Train and test your model</li>
+<li>Hyperparameter Tuning</li>
+<li>Save your model, to use for your predict model</li>
 
 
 Dataset used:  General loan predictions
