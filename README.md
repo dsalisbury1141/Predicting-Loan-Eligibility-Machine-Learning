@@ -24,7 +24,7 @@ In a nutshell:
 <li>Hyperparameter Tuning</li>
 <li>Save your model, to use for your predict model</li>
 
-
+<p>    </p>
 Dataset used:  General loan predictions
 https://www.kaggle.com/ninzaami/loan-predication
 <p>    </p>
