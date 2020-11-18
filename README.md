@@ -12,4 +12,8 @@ https://www.kaggle.com/ninzaami/loan-predication
 <p>    </p>
 
 
+How to run my code:
+	1. Open link above to run deployed site
+	2. Download my repository and run Index page on local host
+  3. ML will only run using Jupyter an may take time to run. 
 
