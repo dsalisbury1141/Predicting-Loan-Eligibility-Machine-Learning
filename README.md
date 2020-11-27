@@ -1,9 +1,9 @@
 # Predicting-Loan-Eligibility-Project
 
 Github publish - https://dsalisbury1141.github.io/Predicting-Loan-Eligibility-Machine-Learning
-Work continues to improve this site
-<a>Deployed externally https://myprojectrepo.com/MachineLearningProject/index.html</a>
-![imageAlt](https://image.freepik.com/free-photo/buying-new-house-concept_35034-364.jpg)
+<p>Work continues to improve this site</p>
+<p><a>Deployed externally https://myprojectrepo.com/MachineLearningProject/index.html</a>
+![imageAlt](https://image.freepik.com/free-photo/buying-new-house-concept_35034-364.jpg)</p>
 
 See full presentation on Google Drive https://docs.google.com/presentation/d/14ixJCypw-fH7q4HrDWFOxY0PVrXbD5uRqIMcI2Y0Po8/edit#slide=id.p1
 
