@@ -2,7 +2,7 @@
 
 Github publish - https://dsalisbury1141.github.io/Predicting-Loan-Eligibility-Machine-Learning
 <p> </p>
-[Deployed remotely with BlueHost](https://myprojectrepo.com/MachineLearningProject/index.html)
+Deployed remotely with BlueHost https://myprojectrepo.com/MachineLearningProject/index.html
 
 ![imageAlt](https://image.freepik.com/free-photo/buying-new-house-concept_35034-364.jpg)
 
