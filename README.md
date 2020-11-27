@@ -1,7 +1,7 @@
 # Predicting-Loan-Eligibility-Project
 
 Github publish - https://dsalisbury1141.github.io/Predicting-Loan-Eligibility-Machine-Learning
-<p>Work continues to improve this site</p>
+<p> </p>
 [Deployed remotely with BlueHost](https://myprojectrepo.com/MachineLearningProject/index.html)
 
 ![imageAlt](https://image.freepik.com/free-photo/buying-new-house-concept_35034-364.jpg)
